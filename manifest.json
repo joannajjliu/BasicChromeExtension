@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Traversy Launcher",
+    "description": "Quick launch Traversy Media",
+    "version": "1.0.0",
+    "icons": {"128": "pickachuLogo128.png"},
+    "browser_action": {
+        "default_icon": "pickachuLogo.png",
+        "default_popup": "popup.htm"
+    },
+    "permissions": ["activeTab"]
+}
